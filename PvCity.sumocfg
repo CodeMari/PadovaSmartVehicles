@@ -1,0 +1,17 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+
+<configuration>
+    <input>
+        <net-file value = "padova.net.xml"/>
+        <route-files value = "padovaRoute.rou.xml"/>
+    </input>
+    <output>
+        <tripinfo-output value = "pvInfo.xml"/>
+        <emission-output value = "pvEmissions.xml"/>
+        </output>
+        
+        <time>
+        <begin value = "0"/>
+        <end value = "500"/>
+        </time>
+</configuration>
