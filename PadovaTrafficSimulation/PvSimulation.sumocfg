@@ -2,16 +2,16 @@
 
 <configuration>
     <input>
-        <net-file value = "padova.net.xml"/>
-        <route-files value = "padovaRoute.rou.xml"/>
+        <net-file value = "padovaNet.net.xml"/>
+        <route-files value = "padovaRoute2.rou.xml"/>
     </input>
     <output>
-        <tripinfo-output value = "pvInfo.xml"/>
-        <emission-output value = "pvEmissions.xml"/>
+        <tripinfo-output value = "padovaInfo2.xml"/>
+        <emission-output value = "padovaEmissions2.xml"/>
         </output>
         
         <time>
         <begin value = "0"/>
-        <end value = "500"/>
+        <end value = "1800"/>
         </time>
 </configuration>
